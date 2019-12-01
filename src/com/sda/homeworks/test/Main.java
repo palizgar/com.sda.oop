@@ -8,6 +8,10 @@ public class Main {
 		Dog aHusky = new Husky("husky", 3, false, 10);
 		// setWeight is overrided by aHusky (child)
 		aHusky.setWeight(8);
+		
+		// inheritance from default Object class in Java library
+		DemoClass aDemoClass = new DemoClass();
+		
 	}
 	
 	
