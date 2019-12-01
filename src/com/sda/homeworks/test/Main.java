@@ -3,15 +3,12 @@ package com.sda.homeworks.test;
 public class Main {
 	
 	public static void main(String[] args) {
-	// demo of @override annotation
 		
-		Dog aHusky = new Husky("husky", 3, false, 10);
-		// setWeight is overrided by aHusky (child)
-		aHusky.setWeight(8);
+		Dad aDad = new Dad("Daddy");
+		Son aSon = new Son("Sonny");
 		
-		// inheritance from default Object class in Java library
-		DemoClass aDemoClass = new DemoClass();
-		
+		aDad.callMe();
+		aSon.callMe();
 	}
 	
 	

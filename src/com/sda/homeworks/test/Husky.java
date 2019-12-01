@@ -15,4 +15,13 @@ public class Husky extends Dog {
 	}
 		System.out.println("Your Husky is on a Diet");
 	}
+	
+	// overloaded setWeight #1
+	public void setWeight(double weight, String name){
+		System.out.println("setWeight method inside overloaded setWeight #1");
+	}
+	// overloaded setWeight #2
+	public void setWeight(double weight,String name, int age){
+		System.out.println("setWeight method inside overloaded setWeight #2");
+	}
 }
