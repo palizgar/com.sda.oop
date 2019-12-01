@@ -30,11 +30,13 @@ public class Dog {
 		return weight;
 	}
 	
+	// Dog implementation of setWeight method
 	public void setWeight(double weight) {
 		if (weight<= 0) {
-			System.out.println("wrong weight");
+			System.out.println("wrong weight in Dog class");
 			return;
 		}
+		System.out.println("right weight in Dog class");
 		this.weight = weight;
 	}
 }
